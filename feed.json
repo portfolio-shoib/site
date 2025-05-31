@@ -10,5 +10,19 @@
         "name": "Muhammad Shoib"
     },
     "items": [
+        {
+            "id": "https://www.shoib.me/enter-password-to-view-content/",
+            "url": "https://www.shoib.me/enter-password-to-view-content/",
+            "title": "Enter Password to View Content",
+            "summary": "Enter Password to View Content View Post",
+            "content_html": "<div id=\"passwordBox\" class=\"password-container\">\n<h2>Enter Password to View Content</h2>\n<input id=\"passwordInput\" type=\"password\" placeholder=\"Password\"> <button>View Post</button>\n<p id=\"errorMessage\"></p>\n</div>\n<div id=\"postContent\" class=\"hidden-content\">\n<h3>Islamic Tools &amp; Resources</h3>\n<ul>\n<li><a href=\"[INSERT QURAN EXPLORER LINK HERE]\" target=\"_blank\" rel=\"noopener\">📖 Quran Explorer</a></li>\n<li><a href=\"[INSERT LUNAR MONTH CALCULATOR LINK HERE]\" target=\"_blank\" rel=\"noopener\">🌙 Advanced Lunar Month Calculator</a></li>\n<li><a href=\"[INSERT QIBLA FINDER LINK HERE]\" target=\"_blank\" rel=\"noopener\">🕋 Advanced Qibla Direction Finder</a></li>\n<li><a href=\"[INSERT SEARCH ENGINE LINK HERE]\" target=\"_blank\" rel=\"noopener\">🔍 Search Engine (Islamic Focus)</a></li>\n<li><a href=\"[INSERT PRAYER TIMES LINK HERE]\" target=\"_blank\" rel=\"noopener\">🕌 Prayer Times</a></li>\n</ul>\n</div>\n<p>\n<script>\n        function checkPassword() {\n            // IMPORTANT: This is a very basic client-side password check and is NOT secure.\n            // For real security, password validation should be done on a server.\n            // This is for demonstration purposes only.\n            const correctPassword = \"SWOT\"; // <<< PASSWORD SET HERE\n            const enteredPassword = document.getElementById(\"passwordInput\").value;\n            const errorMessage = document.getElementById(\"errorMessage\");\n\n            if (enteredPassword === correctPassword) {\n                document.getElementById(\"passwordBox\").style.display = \"none\";\n                document.getElementById(\"postContent\").style.display = \"block\";\n                errorMessage.textContent = \"\"; // Clear error message\n            } else {\n                errorMessage.textContent = \"Incorrect password. Please try again.\";\n                document.getElementById(\"passwordInput\").value = \"\"; // Clear password field\n            }\n        }\n    </script>\n</p>",
+            "author": {
+                "name": "Muhammad Shoib"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-05-29T22:38:03+05:00",
+            "date_modified": "2025-05-31T20:21:15+05:00"
+        }
     ]
 }
