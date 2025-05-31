@@ -3,65 +3,10 @@
     <title>Shoib&#x27;s Space</title>
     <link href="https://www.shoib.me/feed.xml" rel="self" />
     <link href="https://www.shoib.me" />
-    <updated>2025-05-31T20:21:15+05:00</updated>
+    <updated>1970-01-01T05:00:00+05:00</updated>
     <author>
         <name>Muhammad Shoib</name>
     </author>
     <id>https://www.shoib.me</id>
 
-    <entry>
-        <title>Enter Password to View Content</title>
-        <author>
-            <name>Muhammad Shoib</name>
-        </author>
-        <link href="https://www.shoib.me/enter-password-to-view-content/"/>
-        <id>https://www.shoib.me/enter-password-to-view-content/</id>
-
-        <updated>2025-05-29T22:38:03+05:00</updated>
-            <summary>
-                <![CDATA[
-                    Enter Password to View Content View Post
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <div id="passwordBox" class="password-container">
-<h2>Enter Password to View Content</h2>
-<input id="passwordInput" type="password" placeholder="Password"> <button>View Post</button>
-<p id="errorMessage"></p>
-</div>
-<div id="postContent" class="hidden-content">
-<h3>Islamic Tools &amp; Resources</h3>
-<ul>
-<li><a href="[INSERT QURAN EXPLORER LINK HERE]" target="_blank" rel="noopener">📖 Quran Explorer</a></li>
-<li><a href="[INSERT LUNAR MONTH CALCULATOR LINK HERE]" target="_blank" rel="noopener">🌙 Advanced Lunar Month Calculator</a></li>
-<li><a href="[INSERT QIBLA FINDER LINK HERE]" target="_blank" rel="noopener">🕋 Advanced Qibla Direction Finder</a></li>
-<li><a href="[INSERT SEARCH ENGINE LINK HERE]" target="_blank" rel="noopener">🔍 Search Engine (Islamic Focus)</a></li>
-<li><a href="[INSERT PRAYER TIMES LINK HERE]" target="_blank" rel="noopener">🕌 Prayer Times</a></li>
-</ul>
-</div>
-<p>
-<script>
-        function checkPassword() {
-            // IMPORTANT: This is a very basic client-side password check and is NOT secure.
-            // For real security, password validation should be done on a server.
-            // This is for demonstration purposes only.
-            const correctPassword = "SWOT"; // <<< PASSWORD SET HERE
-            const enteredPassword = document.getElementById("passwordInput").value;
-            const errorMessage = document.getElementById("errorMessage");
-
-            if (enteredPassword === correctPassword) {
-                document.getElementById("passwordBox").style.display = "none";
-                document.getElementById("postContent").style.display = "block";
-                errorMessage.textContent = ""; // Clear error message
-            } else {
-                errorMessage.textContent = "Incorrect password. Please try again.";
-                document.getElementById("passwordInput").value = ""; // Clear password field
-            }
-        }
-    </script>
-</p>
-            ]]>
-        </content>
-    </entry>
 </feed>
